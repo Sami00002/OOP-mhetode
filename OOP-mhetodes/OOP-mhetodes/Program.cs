@@ -6,7 +6,11 @@ namespace OOP_mhetodes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Persoane p = new Persoane();
+            p.FirstName = "John";
+            p.LastName = "Dou";
+            p.SayHello();
         }
+        
     }
 }

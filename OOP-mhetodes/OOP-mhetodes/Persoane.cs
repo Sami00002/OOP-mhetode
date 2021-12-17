@@ -19,9 +19,14 @@ namespace OOP_mhetodes
             }
 
         }
+
+        public void SayHello()
+        {
+            Console.WriteLine($"Hello my name is : {FullName}");
+        }
         public void SayHello(string introductionFormula)
         {
-            Console.Write($"{introductionFormula} {FullName}");
+            Console.WriteLine($"{introductionFormula} {FullName}");
         }
         public int GetAge()
         {
